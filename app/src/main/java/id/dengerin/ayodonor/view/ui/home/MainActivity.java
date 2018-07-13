@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.iv_bg_jadwal:
                 Intent intent = new Intent(MainActivity.this, JadwalActivity.class);
-                startActivity(intent);
+                startActivity(intent); break;
         }
     }
 

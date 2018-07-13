@@ -154,7 +154,7 @@ public class StokDarahActivity extends AppCompatActivity implements StokDarahMvp
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.iv_back_stok:
-                finish();
+                finish(); break;
         }
     }
 }

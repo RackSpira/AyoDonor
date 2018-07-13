@@ -107,9 +107,9 @@ public class JadwalActivity extends AppCompatActivity implements View.OnClickLis
                         presenter.getJadwal(dateParameter, spinnerDaerah.getSelectedItem().toString());
                     }
                 }, tahun, bulan, hari);
-                datePickerDialog.show();
+                datePickerDialog.show(); break;
             case R.id.iv_back_jadwal:
-                finish();
+                finish(); break;
         }
     }
 
